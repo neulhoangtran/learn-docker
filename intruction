@@ -7,6 +7,9 @@ docker images // check the images are  running
 docker exec -it <container> <cmd> 
 docker exec -it U1 bash
 
+docker attach <container>
+//truy cập 1 container
+
 ubuntu
 apt update -y : update ubuntu
 app install htop
@@ -18,3 +21,5 @@ sudo apt-get install htop
 
 sudo yum -y install epel-release
 sudo yum -y install htop
+
+
