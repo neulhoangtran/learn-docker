@@ -3,5 +3,18 @@ git remote add origin https://github.com/HoangTN96/learn-docker.git
 git fetch; git checkout master;
 docker build -t docker-101 .
 docker images // check the images are  running
-:wq
 
+docker exec -it <container> <cmd> 
+docker exec -it U1 bash
+
+ubuntu
+apt update -y : update ubuntu
+app install htop
+//htop liệt kê các tiến trình đang chạy
+# Đối với Ubuntu
+sudo apt-get install htop
+
+# Đối với centos
+
+sudo yum -y install epel-release
+sudo yum -y install htop
