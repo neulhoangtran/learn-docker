@@ -2,4 +2,6 @@ docker run -d -p 80:80 docker/getting-started:pwd
 git remote add origin https://github.com/HoangTN96/learn-docker.git
 git fetch; git checkout master;
 docker build -t docker-101 .
+docker images // check the images are  running
+:wq
 
