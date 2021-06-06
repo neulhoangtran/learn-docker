@@ -1,2 +1,5 @@
 -----Ubuntu------------
+apt update -y
 apt-get install vim
+apt-get install iputils-ping
+apt-get install htop
