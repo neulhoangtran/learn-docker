@@ -23,3 +23,10 @@ sudo yum -y install epel-release
 sudo yum -y install htop
 
 
+//lưu container thành images
+docker commit <container> image:tag
+eg. docker commit U1 testimage:version1
+docker load -i <file>
+docker tag <id> <name>:<version>
+docker tag ff new:version2
+
